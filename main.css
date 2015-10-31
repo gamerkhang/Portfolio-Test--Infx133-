@@ -1,0 +1,12 @@
+/* no media query for extra small devices because this is the default for this one */
+
+/* tablets, 768px or bigger */
+@media (min-width: 768px) {
+
+}
+
+/* desktops, 992px or bigger */
+@media (min-width: 992px) {
+
+	
+}
