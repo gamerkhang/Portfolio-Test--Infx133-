@@ -1,3 +1,7 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
 /* no media query for extra small devices because this is the default for this one */
 
 /* tablets, 768px or bigger */
