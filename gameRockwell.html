@@ -6,11 +6,13 @@
 		<meta name="description" content="I'm Khang Tran from Southern California, and this is my game development portfolio.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="menu.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/slideshow.js"></script>
 	</head>
 
 	<body>
@@ -26,10 +28,45 @@
 
 			<a class="toggle-nav" href="#">&#9776;</a>
 		</nav>
-		
-		<header>Rockwell</header>
 
 		<section>
+			<h1>Rockwell</h1>
+			
+			<div class="bss-slides slideshow">
+			    <figure>
+			        <img src="images/Rockwell/INFX190 Screenshot 0.png" width="100%" height="auto"/>
+			        <figcaption></figcaption> 
+			    </figure>
+			    <figure>
+			        <img src="images/Rockwell/INFX190 Screenshot 1.png" width="100%" height="auto"/>
+			        <figcaption></figcaption> 
+			    </figure>
+			    <figure>
+			        <img src="images/Rockwell/INFX190 Screenshot 2.png" width="100%" height="auto"/>
+			        <figcaption></figcaption> 
+			    </figure>
+			    <figure>
+			        <img src="images/Rockwell/INFX190 Screenshot 3.png" width="100%" height="auto"/>
+			        <figcaption></figcaption> 
+			    </figure>
+			    <figure>
+			        <img src="images/Rockwell/INFX190 Screenshot 4.png" width="100%" height="auto"/>
+			        <figcaption></figcaption> 
+			    </figure>
+			    <figure>
+			        <img src="images/Rockwell/INFX190 Screenshot 5.png" width="100%" height="auto"/>
+			        <figcaption></figcaption> 
+			    </figure>
+			    <figure>
+			        <img src="images/Rockwell/INFX190 Screenshot 6.png" width="100%" height="auto"/>
+			        <figcaption></figcaption> 
+			    </figure>
+			</div>
+
+			<script>
+			    makeBSS('.slideshow');
+			</script>
+
 			<p>Year: Spring 2015<br>Role: Programmer/Designer<br>Teammates: Joey Vongpanya, Kyle Koenig, Abel Saldana</p>
 
 			<p>Rockwell was a 2D top-down JRPG prototype made for the class Informatics 190, aka Writing for Computer Games. In this class, we were split into teams to create a game universe over the course of the quarter using what we learned in lecture. This involved creating documents that specified the universe, including character bios, location descriptions, and a script for an in-universe narrative.</p>
