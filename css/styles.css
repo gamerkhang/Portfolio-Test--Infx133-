@@ -4,8 +4,10 @@
 }
 
 header {
+    display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 10px 18px;
+    border-radius:3px;
     margin: 5px 10px;
 }
 
@@ -15,12 +17,12 @@ header img {
 }
 
 section {
+    text-align: center;
     margin: 10px;
     padding: 10px 18px;
     box-shadow:0px 1px 1px rgba(0,0,0,0.15);
     border-radius:3px;
     background:#A0A0A0;
-    text-align: center;
 }
 
 section p {
@@ -34,14 +36,13 @@ section p {
     margin: 10px;
 }
 
-.game p {
-    text-align: center;
-    padding: 10px;
-}
-
 .game img {
     width: 300px;
     height: auto;
+}
+
+.game p {
+    text-align: center;
 }
 
 footer {
@@ -58,7 +59,23 @@ footer {
         width: 450px;
         height: auto;
         float: left;
-        padding: 5px;
+        margin: 10px 30px;
+    }
+
+    .game p {
+        position: relative;
+    }
+
+    header {
+        overflow: auto;
+        width: 860px;
+    }
+
+    header img {
+        width: 300px;
+        height: auto;
+        float: left;
+        margin: 10px 30px;
     }
 }
 
@@ -74,7 +91,7 @@ footer {
         padding:5px 18px;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
-        background:#303030;
+        background:#505050;
     }
 }
 
@@ -101,7 +118,7 @@ footer {
  
 .menu a {
     text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-    color:#777;
+    color: white;
     transition:color linear 0.15s;
 }
 
@@ -112,6 +129,7 @@ footer {
  
 /*----- Responsive -----*/
 @media screen and (max-width: 1150px) {
+
     .wrap {
         width:90%;
     }
@@ -119,8 +137,7 @@ footer {
  
 @media screen and (max-width: 860px) {
     .menu {
-        position:fixed;
-        display:inline-block;
+        display: inline-block;
         position: fixed;
         z-index: 1;
     }
@@ -137,7 +154,7 @@ footer {
         padding:10px 10px;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
-        background:#303030;
+        background:#505050;
         overflow:auto;
     }
  
@@ -151,7 +168,7 @@ footer {
         transform:translate(0%, -100%);
         border-left:7px solid transparent;
         border-right:7px solid transparent;
-        border-bottom:7px solid #303030;
+        border-bottom:7px solid #505050;
     }
  
     .menu li {
@@ -170,9 +187,9 @@ footer {
         display:inline-block;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
-        background:#303030;
+        background:#505050;
         text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-        color:#777;
+        color:white;
         font-size:20px;
         transition:color linear 0.15s;
     }
